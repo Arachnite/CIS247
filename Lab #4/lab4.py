@@ -51,7 +51,7 @@ def get_sales():
     return sales_list
 
 """
-Print the sales bar chart for each store.
+Prints the sales bar chart for each store.
 
 Args:
     None
@@ -71,9 +71,6 @@ def print_sales_bar_chart():
             print("*", end = "")
         print(f" - {astricks}")
 
-        if store_num != num_stores:
-            print("--------------------------------")
-
 # Program's User Interface
 try:
     num_stores = get_stores("\nHow many stores do you own? ")
@@ -82,6 +79,7 @@ try:
     sales_list = get_sales()
 
     print_sales_bar_chart()
+    print("--------------------------------")
 
 except Exception as e:
     print(f"An error occurred: {e}")
