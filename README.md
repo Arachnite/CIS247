@@ -1,2 +1,2 @@
 
-# <center>CIS247</center>
+<h1 align="center">CIS247</h1>
