@@ -10,13 +10,13 @@ def main():
     # Create the four astronomy related questions
     questions = [
         Question("What is the closest star to Earth (other than the Sun)?",
-                 ["Sirius", "Proxima Centauri", "Alpha Centauri A", "Betelgeuse", "Vega"], 2),
+                 ["Sirius", "Proxima Centauri", "Alpha Centauri A", "Betelgeuse", "Vega"], 1),
         Question("Which planet in our solar system has the most moons?",
-                 ["Jupiter", "Saturn", "Uranus", "Neptune", "Mars"], 2),
+                 ["Jupiter", "Saturn", "Uranus", "Neptune", "Mars"], 1),
         Question("What type of celestial object is formed when a massive star collapses at the end of its life cycle?",
-                 ["White Dwarf", "Neutron Star", "Red Giant", "Planetary Nebula", "Black Hole"], 5),
+                 ["White Dwarf", "Neutron Star", "Red Giant", "Planetary Nebula", "Black Hole"], 4),
         Question("Which galaxy is on a collision course with the Milky Way?",
-                 ["Triangulum Galaxy", "Large Magellanic Cloud", "Andromeda Galaxy", "Whirlpool Galaxy", "Sombrero Galaxy"], 3)
+                 ["Triangulum Galaxy", "Large Magellanic Cloud", "Andromeda Galaxy", "Whirlpool Galaxy", "Sombrero Galaxy"], 2)
     ]
 
     # Initialize player scores
